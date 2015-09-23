@@ -1,7 +1,7 @@
 # Fresh-tomatoes-movie-page
 INTRO
 Udacity Project 1
-This project is a sample movie page of some movies.
+This project is a sample movie page.
 
 
 To use this program:
