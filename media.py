@@ -3,7 +3,7 @@ class Movie():
     movies information.The information
     it can contain is very limited.
     """
-	def __init__(self, title, poster_image, movie_trailer,
+    def __init__(self, title, poster_image, movie_trailer,
                  description, year_made):
             """ This constructor method takes
             input for the title, poster image,
