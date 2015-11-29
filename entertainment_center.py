@@ -12,8 +12,8 @@ Avatar = media.Movie("Avatar",
                       "thumb/b/b0/Avatar-Teaser-Poster.jpg/"
                       "220px-Avatar-Teaser-Poster.jpg"),
                      "https://www.youtube.com/watch?v=5PSNL1qE6VY",
-                     ("Movie about an disable ex soldier, that is"
-                      "sent to another world to replace his brother."),
+                     ("Movie about a disable ex soldier, that is "
+                      "sent to another world to replace his scientist brother."),
                      "2009")
 
 Avengers = media.Movie("Avengers",
@@ -29,7 +29,7 @@ good_will_hunting = media.Movie("Good Will Hunting",
                                  "ster.jpg/220px-Good_Will_Hunting_theatri"
                                  "cal_poster.jpg"),
                                 "https://www.youtube.com/watch?v=nH9LZOXBMUE",
-                                ("A trouble young adult get"
+                                ("A trouble young adult gets "
                                  "the help he needs."), "1997")
 
 Enders_game = media.Movie("Ender's Game",
@@ -37,7 +37,7 @@ Enders_game = media.Movie("Ender's Game",
                            "/thumb/8/8c/Ender%27s_Game_poster.jpg/"
                            "220px-Ender%27s_Game_poster.jpg"),
                           "https://www.youtube.com/watch?v=2SRizeR4MmU",
-                          ("A child is choosen to be the"
+                          ("A child is choosen to be the "
                            "next commander."),
                           "2013")
 
