@@ -1,5 +1,8 @@
 import media
 import fresh_tomatoes
+import tmdbsimple as tmdb
+
+tmdb.API_KEY = 'de4e5ffe351acf1b8fa71014d3feb8a6'
 # main file contains all the movie files
 
 # each will contain the title, movie
@@ -7,6 +10,13 @@ import fresh_tomatoes
 # description, and the year it was made.
 # content will be entered in that order.
 
+def get_movie_info(title):
+    search = tmdb.Search()
+    response = search.movie(query=title)
+    print search.results[0]
+
+
+movie = get_movie_info('Avatar')
 Avatar = media.Movie("Avatar",
                      (" http://upload.wikimedia.org/wikipedia/en/"
                       "thumb/b/b0/Avatar-Teaser-Poster.jpg/"
@@ -45,3 +55,4 @@ Enders_game = media.Movie("Ender's Game",
 myMovies = [Avatar, Avengers, good_will_hunting, Enders_game]
 
 fresh_tomatoes.open_movies_page(myMovies)
+
