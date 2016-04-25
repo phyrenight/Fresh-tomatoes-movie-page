@@ -1,12 +1,18 @@
 # Fresh-tomatoes-movie-page
-INTRO
+#INTRO
 Udacity Project 1
-This project is a sample movie page.
+This project is a sample movie page. (The Movie database)[https://www.themoviedb.org] is used in this program
 
+##Software needed:
+- python 2.7
+- tmdbsimple
 
-To use this program:
+##To use this program:
 Download the files.
-run the file entertainment_center.py.
-Click on any movie image, to see the movies trailer.
+from the command line
+- navigate to the folder that contains the project files
+- type `python entertainment_center.py
+- and enjoy
+Click on any movie image, to see the movie's trailer.
 
  
