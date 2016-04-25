@@ -11,7 +11,6 @@ This project is a sample movie page.
 [The Movie database](https://www.themoviedb.org) is used in this program
 
 ##To use this program:
-Download the files.
 from the command line
 - navigate to the folder that contains the project files
 - type `python entertainment_center.py
