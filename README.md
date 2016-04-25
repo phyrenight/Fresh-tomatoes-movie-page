@@ -1,7 +1,7 @@
 # Fresh-tomatoes-movie-page
 #INTRO
 Udacity Project 1
-This project is a sample movie page. (The Movie database)[https://www.themoviedb.org] is used in this program
+This project is a sample movie page. [The Movie database](https://www.themoviedb.org) is used in this program
 
 ##Software needed:
 - python 2.7
