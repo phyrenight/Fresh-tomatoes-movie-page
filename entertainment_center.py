@@ -9,14 +9,24 @@ tmdb.API_KEY = 'de4e5ffe351acf1b8fa71014d3feb8a6'
 # poster, movie trailer, a brief
 # description, and the year it was made.
 # content will be entered in that order.
+
+#web address for movie look up
 TMDBURL = "https://image.tmdb.org/t/p/w185"
 YOUTUBEURL = "https://www.youtube.com/watch?v="
+
 def get_movie_info(title):
+    """
+        args: title - will contain the title of the movie
+
+        function: will search tmdb's database for the title passed to it.
+        The function will return the movie's title, poster, a trailer, 
+         a description of the movie and the release date. 
+    """
     search = tmdb.Search()
     response = search.movie(query=title)
-
     movie = search.results[0]
-    trailer = tmdb.Movies(movie['id']).videos()
+
+    trailer = tmdb.Movies(movie['id']).videos()# Used because tmdb.search does not return video
     results = trailer['results'][0]
     video = YOUTUBEURL + results['key']
     poster = TMDBURL + movie['poster_path']
@@ -26,8 +36,6 @@ def get_movie_info(title):
                      movie['overview'],
                      movie['release_date'])
     
-#    movie = tmdb.Movies()
-
 
 Avatar = get_movie_info('Avatar')
 Avengers = get_movie_info('The Avengers')
