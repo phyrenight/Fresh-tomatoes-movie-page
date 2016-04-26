@@ -10,6 +10,7 @@ This project is a sample movie page.
 
 to install tmdbsimple
 use pip:
+
 `pip install tmdbsimple
 
 [The Movie database](https://www.themoviedb.org) is used in this program
