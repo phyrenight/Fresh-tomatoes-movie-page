@@ -8,6 +8,10 @@ This project is a sample movie page.
 - python 2.7
 - tmdbsimple
 
+to install tmdbsimple
+use pip:
+`pip install tmdbsimple
+
 [The Movie database](https://www.themoviedb.org) is used in this program
 
 ##To use this program:
